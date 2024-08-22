@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Job Seeking Form</title>
+    <style>
+         form{
+            margin-top: 50px;
+            margin-bottom: 100px;
+            box-sizing: border-box;
+            width: 55%;
+            border: 3px solid black;
+            padding: 50px;
+            margin-left: 30%;
+        }
+        .gap {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+        <h1>Job seeking Form</h1>
+        <form>
+            <div class="gap">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" >
+            </div>
+            <div class="gap">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" >
+            </div>
+            <div class="gap">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="gap">
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" name="phone" >
+            </div>
+            <div class="gap">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="2" ></textarea>
+            </div>
+            <div class="gap">
+                <label for="jobType">Job Type</label>
+                <select id="jobType" name="jobType" >
+                    <label for="jod type">Job type</label>
+                    <option value="fullTime">Full-Time</option>
+                    <option value="partTime">Part-Time</option>
+                </select>
+            </div>
+            <div class="gap">
+                <label for="Company">Company</label>
+                <select id="Company" name="Company">
+                    <option value="it">IT</option>
+                    <option value="finance">Finance</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+            </div>
+            <div class="gap">
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume" >
+            </div>
+            <div class="gap">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

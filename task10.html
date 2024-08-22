@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>LinkedIn Registration Form</title>
+    <style>
+           form{
+            margin-top: 50px;
+            margin-bottom: 100px;
+            box-sizing: border-box;
+            width: 55%;
+            border: 3px solid black;
+            padding: 50px;
+            margin-left: 30%;
+        }
+
+        .gap {
+            margin-bottom: 15px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color:blue;font-style:italic ;">LinkedIn</h1>
+    <form>
+        <div class="gap">
+            <label for="First name">First name:</label>
+            <input type="text" name="First name" id="First name" >
+        </div>
+        <div class="gap">
+            <label for="Last name">Last name:</label>
+            <input type="text" name="Last name" id="Last name">
+        </div>
+        <div class="gap">
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" >
+        </div>
+        <div class="gap">
+            <label for="Password">Password</label>
+            <input type="text" name="Password" id="Password">
+        </div>
+        <div class="gap">
+            <label for="re-enter Password">re-enter Password:</label>
+            <input type="text" name="re-enter Password" id="re-enter Password">
+        </div>
+        <div class="gap">
+        <label for="Country">Country:</label>
+            <select id="Country" name="Country" >
+                <option value="India">India</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albania">Albania</option>
+            </select>
+        </div>
+        <div class="gap">
+            <label for="I am currently">I am currently:</label>
+            <input type="radio" id="employed"> 
+            <label for="employed">employed</label><br>
+            <input type="radio" id="looking for work" name="looking for work" value="looking for work">
+            <label for="looking for work">looking for work</label><br>
+            <input type="radio" id="student" name="student" value="student">
+            <label for="student">student</label>
+        </div>
+        <button type="submit">Register</button>
+
+    </form>
+</body>
+</html>
